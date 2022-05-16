@@ -1,0 +1,9 @@
+DROP TABLE IF EXISTS Photos;
+CREATE TABLE IF NOT EXISTS Photos (
+	id BIGINT IDENTITY PRIMARY KEY,
+	file_name VARCHAR(255) NOT NULL,
+	content_type VARCHAR(255) NOT NULL,
+	data BINARY 
+);
+
+// IDENTITY = auto increment
