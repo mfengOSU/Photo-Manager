@@ -3,7 +3,6 @@ A simple React + Spring Boot web app to view, upload, and delete images
 
 ## Requirements
 - Java 17
-- Maven 
 
 ## Run web application
 Note: All commands are run on Windows machine in the Command Prompt 
